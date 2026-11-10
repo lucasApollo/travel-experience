@@ -1,11 +1,32 @@
-h1{
-    font-size: 1rem;
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
-    font-size: 2rem;
+.auraa{
+    max-width: 600px;
+    width: 90%;
+    background-color: #e5e7eb;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 40px auto;
 }
 
-p{
-    font-size: 3rem;
+.aura{
+    width: 50%;
+    background-color: #0055ff;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
 }
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+    
+}   
