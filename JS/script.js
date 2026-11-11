@@ -1,2 +1,6 @@
-const formCalculo = document.getElementById("formCalculo");
-const numero1 = document.getElementById("numero1");
+const botao = document.getElementById("botao");
+const mensagem = document.getElementById("mensagem");
+
+botao.addEventListener("click", () => {
+    mensagem.textContent = "Obrigado Por Farmar Aura";
+});
